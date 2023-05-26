@@ -44,12 +44,39 @@ header nav li a {
   font-weight: 500;
 }
 .content {
-  position: relative;
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 0 40px; 
   height: max-content;
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  max-width: 50%;
+}
+.textbox h2 {
+  font-size: 2.7em;
+  font-weight: 500;
+  line-height: 1.1em;
+  color: #333;
+}
+.textbox h2 span {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ea4c38;
+}
+.textbox a {
+  text-decoration: none;
+  width: max-content;
+  color: white;
+  background-color: #ea4c38;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .thumb {
   grid-column: 1 / -1;
