@@ -24,3 +24,9 @@ header {
   align-items: center;
   padding: 15px;
 }
+.content {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
