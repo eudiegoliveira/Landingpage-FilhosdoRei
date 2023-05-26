@@ -17,3 +17,10 @@ section {
   background-color: #ebebeb;
   border-radius: 30px;
 }
+header {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
