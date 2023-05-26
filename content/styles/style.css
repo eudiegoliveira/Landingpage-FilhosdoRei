@@ -112,5 +112,10 @@ header nav li a {
   flex-direction: column;
   right: 0;
   top: 40%;
+  list-style: none;
+  padding: 10px;
 }
-
+.socialmedia li a {
+  font-size: 32px;
+  color: #333;
+}
