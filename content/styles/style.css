@@ -47,15 +47,15 @@ header nav li a {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
-  padding: 0 40px; 
+  padding: 10px 15px 10px 40px; 
   height: max-content;
 }
 .textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px;
-  max-width: 50%;
+  gap: 20px;
+  max-width: 47%;
 }
 .textbox h2 {
   font-size: 2.7em;
@@ -77,6 +77,9 @@ header nav li a {
   border-radius: 30px;
   font-size: 16px;
   font-weight: 500;
+}
+.content img {
+  max-width: 40%;
 }
 .thumb {
   grid-column: 1 / -1;
