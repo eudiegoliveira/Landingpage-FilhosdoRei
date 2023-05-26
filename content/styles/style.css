@@ -76,7 +76,19 @@ header nav li a {
   font-size: 16px;
   font-weight: 500;
 }
-.content {
+header nav li a span{
+  color: #ffffff;
+  background-color: #ea4c38;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+header nav li a span:hover{
+  background-color: #ebebeb;
+  color: #ea4c38;
+  border: 1.5px solid #ea4c38;
+  transition: all 0.5s;
+}
+  .content {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
