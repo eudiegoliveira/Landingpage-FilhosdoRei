@@ -11,31 +11,31 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
   padding: 40px 60px;
+  background-color: #e0d7ca;
 }
-.circleboby1 {
+/* .circleboby1 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ea4c38;
-  clip-path: circle(10% at 0% 0%);
-}
-
-.circlebody2 {
+  background-color: #d7c6b0;
+  clip-path: circle(10% at 0% 18%);
+} */
+/* .circlebody2 {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #ea4c38;
+  background-color: #d7c6b0;
   clip-path: circle(8% at 100% 0%);
-}
+} */
 section {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #ebebeb;
+  background-color: white;
   border-radius: 30px;
   box-shadow: 15px 15px 20px rgba(15, 15, 15, 0.315),
     -15px -15px 20px rgba(255, 255, 255, 0);
@@ -46,7 +46,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #b4b969;
+  background-color: #ea4c38;
   clip-path: circle(33% at 95% 90%);
   border-radius: 30px;
 }
@@ -119,6 +119,7 @@ header nav li a span:hover {
   color: white;
   background-color: #ea4c38;
   padding: 10px 20px;
+  margin-top: 3em;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 500;
@@ -158,11 +159,11 @@ header nav li a span:hover {
   flex-direction: column;
   align-items: center;
   right: 0;
-  top: 40%;
+  top: 8.5%;
   list-style: none;
   padding: 14px;
 }
 .socialmedia li a {
   font-size: 32px;
-  color: white;
+  color: #ea4c38;
 }
