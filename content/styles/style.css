@@ -3,14 +3,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
   padding: 40px 55px;
-  min-height: 100vh;
 }
 .circleboby1 {
   position: absolute;
@@ -19,17 +19,17 @@ body {
   width: 100%;
   height: 100%;
   background-color: #ea4c38;
-  clip-path: circle(20% at 5% 0%);
+  clip-path: circle(10% at 0% 0%);
 }
 
 .circlebody2 {
   position: absolute;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
   width: 100%;
   height: 100%;
   background-color: #ea4c38;
-  clip-path: circle(47.0% at 93% 96%);
+  clip-path: circle(8% at 100% 0%);
 }
 section {
   position: relative;
@@ -76,23 +76,23 @@ header nav li a {
   font-size: 16px;
   font-weight: 500;
 }
-header nav li a span{
+header nav li a span {
   color: #ffffff;
   background-color: #ea4c38;
   padding: 8px 18px;
   border-radius: 30px;
 }
-header nav li a span:hover{
+header nav li a span:hover {
   background-color: #ebebeb;
   color: #ea4c38;
   border: 1px solid #ea4c38;
   transition: all 0.5s;
 }
-  .content {
+.content {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px 70px 40px; 
+  padding: 10px 30px 70px 40px;
   height: max-content;
 }
 .textbox {
@@ -124,6 +124,7 @@ header nav li a span:hover{
   font-weight: 500;
 }
 .content img {
+  position: relative;
   max-width: 40%;
 }
 .thumb {
