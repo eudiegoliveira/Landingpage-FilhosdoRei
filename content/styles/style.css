@@ -11,7 +11,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
   padding: 40px 60px;
-  background-color: #e0d7ca;
+  background-color: #f1ede9;
 }
 .circleboby1 {
   position: absolute;
@@ -19,8 +19,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #d7c6b0;
-  clip-path: circle(10% at 0% 18%);
+  background-color: #d9bf9d;
+  clip-path: circle(10% at 0 22%);
 }
 .circlebody2 {
   position: absolute;
@@ -28,7 +28,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #d7c6b0;
+  background-color: #d9bf9d;
   clip-path: circle(8% at 100% 0%);
 }
 section {
