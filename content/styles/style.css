@@ -8,9 +8,9 @@
 body {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr);
-  padding: 40px 60px;
+  place-items: center;
+  grid-template-columns: 100vw;
+  grid-template-rows: repeat(5, 100vh);
   background-color: #f1ede9;
 }
 .circleboby1 {
@@ -35,10 +35,12 @@ section {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25vh;
   background-color: white;
   border-radius: 30px;
-  box-shadow: 15px 15px 20px rgba(15, 15, 15, 0.315),
-    -15px -15px 20px rgba(255, 255, 255, 0);
+  max-width: 92vw;
+  max-height: 100vh;
+  box-shadow: 15px 15px 20px rgba(15, 15, 15, 0.315), -15px -15px 20px rgba(255, 255, 255, 0);
 }
 .circlesection {
   position: absolute;
@@ -92,26 +94,33 @@ header nav li a span:hover {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px 50px 50px;
+  padding: 20px 35px 10px 35px;
   height: max-content;
 }
 .textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  width: 45%;
+  align-items: flex-start;
+  gap: 15px;
+  width: 50%;
 }
 .textbox h2 {
   font-size: 2.7em;
-  font-weight: 500;
-  line-height: 1.1em;
-  color: #333;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: #1b1b1b;
 }
 .textbox h2 span {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 2.9rem;
+  font-weight: 900;
+  letter-spacing: 3px;
   color: #ea4c38;
+}
+.textbox p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1b1b1b;
 }
 .textbox a {
   text-decoration: none;
@@ -119,15 +128,11 @@ header nav li a span:hover {
   color: white;
   background-color: #ea4c38;
   padding: 10px 20px;
-  margin-top: 3em;
+  margin-top: 2em;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 500;
 }
-/* .content img {
-  position: relative;
-  width: 45%;
-} */
 .thumb {
   position: absolute;
   bottom: 1%;
