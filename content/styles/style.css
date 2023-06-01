@@ -35,7 +35,7 @@ section {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 25vh;
+  grid-template-rows: 20vh 70vh ;
   background-color: white;
   border-radius: 30px;
   max-width: 92vw;
