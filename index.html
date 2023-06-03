@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="content/styles/style.css">
   <link rel="stylesheet" href="content/styles/media.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./content/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./content/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./content/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./content/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./content/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <title>Filhos do Rei</title>
 </head>
 
@@ -27,12 +34,12 @@
     <div class="content">
       <div class="circlesection"></div>
       <div class="textbox">
-        <h2>Nossa comida caseira<br>é feita com <span>carinho</span></h2>
+        <h2>Nossa comia é feita <br>com muito <span>carinho</span><i class="fa-solid fa-heart fa-spin-pulse" style="color: #ea4c38; font-size: 14px;"></i></h2>
         <p>Experimente a verdadeira delícia da comida caseira no conforto da sua residência. Nosso delivery oferece pratos cuidadosamente preparados com ingredientes frescos e amor. Peça agora e desfrute de uma refeição deliciosa e nutritiva sem abrir mão do sabor caseiro.</p>
         <a href="#">Saiba Mais</a>
       </div>
       <div class="banner">
-      <img id="banner-banner" src="/content/images/banner1.png" alt="Banner">
+        <img id="banner-banner" src="/content/images/banner1.png" alt="Banner">
       </div>
       <ul class="socialmedia">
         <li><a href="https://www.instagram.com/filhosdorei_delivery/"><i class="fa-brands fa-instagram"></i></a></li>
@@ -47,16 +54,16 @@
       <li><img src="content/images/thumb-4.png" alt="thumb" onclick="imgSlider('/content/images/banner4.png');changeCircleColor('#bddb88')"></li>
     </ul>
   </section>
-    
-    <script type="text/javascript">
-      function imgSlider(anything) {
-        document.querySelector('#banner-banner').src = anything;
-      }
-      function changeCircleColor(color) {
-        const circle = document.querySelector('.circlesection');
-        circle.style.background = color;
-      }
-    </script>
+
+  <script type="text/javascript">
+    function imgSlider(anything) {
+      document.querySelector('#banner-banner').src = anything;
+    }
+    function changeCircleColor(color) {
+      const circle = document.querySelector('.circlesection');
+      circle.style.background = color;
+    }
+  </script>
 </body>
 
 </html>

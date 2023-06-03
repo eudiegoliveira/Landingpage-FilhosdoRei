@@ -59,7 +59,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: max-content;
-  padding: 15px 55px 0 30px;
+  padding: 25px 55px 0 30px;
 }
 header img {
   max-width: 90px;
@@ -78,16 +78,18 @@ header nav li a {
   font-size: 16px;
   font-weight: 500;
 }
+header nav li a:hover {
+  color: #ea2910fd;
+  transition: all 0.5s;  
+}
 header nav li a span {
   color: #ffffff;
   background-color: #ea4c38;
-  padding: 8px 18px;
+  padding: 10px 20px;
   border-radius: 30px;
 }
 header nav li a span:hover {
-  background-color: #ebebeb;
-  color: #ea4c38;
-  border: 1px solid #ea4c38;
+  background-color: #ae3c2dfd;
   transition: all 0.5s;
 }
 .content {
@@ -109,15 +111,16 @@ header nav li a span:hover {
   font-size: 2.7em;
   font-weight: 400;
   line-height: 2.7rem;
-  color: #1b1b1b;
+  color: #333;
 }
 .textbox h2 span {
   font-size: 2.9rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 3px;
   color: #ea4c38;
 }
 .textbox p {
+  max-width: 85%;
   font-size: 16px;
   font-weight: 400;
   color: #1b1b1b;
@@ -128,10 +131,14 @@ header nav li a span:hover {
   color: white;
   background-color: #ea4c38;
   padding: 10px 20px;
-  margin-top: 2em;
+  margin-top: 1em;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 500;
+}
+.textbox a:hover{
+  background-color: #ae3c2dfd;
+  transition: all 0.5s;
 }
 .thumb {
   position: absolute;
