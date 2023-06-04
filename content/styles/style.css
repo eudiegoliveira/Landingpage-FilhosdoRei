@@ -104,7 +104,7 @@ header nav li a span:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 15px;
+  gap: 25px;
   width: 50%;
 }
 .textbox h2 {
@@ -178,12 +178,16 @@ header nav li a span:hover {
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 15px;
-  right: 3%;
-  bottom: 2%;
+  gap: 20px;
+  right: 4%;
+  bottom: 3%;
   list-style: none;
 }
 .socialmedia li a {
-  font-size: 32px;
+  font-size: 30px;
   color: white;
+}
+.socialmedia li a:hover {
+  color: #ae3c2dfd;
+  transition: all 0.5s;
 }
