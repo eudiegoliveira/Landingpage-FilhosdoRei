@@ -167,7 +167,7 @@ header nav li a span:hover {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  align-items: end;
+  align-items: center;
   width: 50%;
 }
 .banner img {

@@ -1,0 +1,38 @@
+@media (max-width: 1180px) {
+  .textbox h2 {
+    font-size: 2.5em;
+  }
+  .textbox h2 span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .content {
+    grid-row: 2 / 3;
+    padding: 20px 10px 50px 50px;
+  }
+  .textbox h2 {
+    font-size: 2.2em;
+    line-height: 2.2rem;
+  }
+  .textbox {
+    gap: 15px;
+  }
+}
+@media (max-width: 945px) {
+  .textbox h2 {
+    font-size: 2.1em;
+  }
+  .textbox h2 span {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 844px) {
+  .textbox h2 {
+    font-size: 2em;
+  }
+  .textbox h2 span {
+    font-size: 2rem;
+  }
+}
