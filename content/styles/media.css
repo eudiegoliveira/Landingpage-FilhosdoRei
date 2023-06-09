@@ -18,13 +18,13 @@
   }
   .content {
     grid-column: 1 / -1;
-    padding: 20px 15px;
+    padding: 10px 15px;
     flex-direction: column;
   }
   .textbox {
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     width: 100%;
   }
   .textbox h2 {
@@ -44,10 +44,19 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 15px;
+    padding: 20px 0;
   }
   .banner img {
     position: relative;
     max-width: 70%;
+  }
+  .thumb li img {
+    max-width: 50px;
+  }
+  .socialmedia {
+    display: none;
+  }
+  .circlesection {
+    clip-path: circle(33% at 50% 100%);
   }
 }
