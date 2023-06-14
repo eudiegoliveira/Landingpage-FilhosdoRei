@@ -1,4 +1,4 @@
-@media (max-width: 1220px) {
+@media screen and (max-width: 1220px) {
   .textbox h2 {
     font-size: 2.5em;
     line-height: 2.5rem;
@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 1220px) {
+@media screen and (max-width: 1120px) {
   .textbox h2 {
     font-size: 2.3em;
     line-height: 2.3rem;
@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
   header nav li a {
     font-size: 15px;
   }
@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: 880px) {
+@media screen and (max-width: 880px) {
   header nav li a {
     font-size: 14px;
   }
@@ -49,27 +49,33 @@
   .textbox p {
     font-size: 14px;
   }
+  .thumb li {
+    width: 60px;
+  }
 }
 
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
+  body {
+    padding: 1.5em;
+  }
   header img {
     max-width: 65px;
   }
   .content {
     flex-direction: column;
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 25px 50px;
   }
   .textbox {
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
+    padding-bottom: 40px;
   }
   .banner {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 50px 0;
   }
   .banner img {
     max-width: 80%;
@@ -80,67 +86,108 @@
     right: 4%;
     bottom: 10%;
   }
-}
-
-@media (max-width: 400px) {
-  section {
-    grid-template-rows: 15vh 80vh;
-    width: 90vw;
-    height: 95vh;
-  }
-  header {
+  .thumb {
+    position: relative;
+    /* bottom: 2%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px 0;
+    padding-bottom: 20px;
+    gap: 20px;
+    width: 100%;
+    transition: all 0.8s;
+  }
+  .thumb li {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header {
+    padding: 30px;
   }
   header nav {
     display: none;
   }
-  header img {
-    max-width: 65px;
-  }
   .content {
-    grid-column: 1 / -1;
-    padding: 10px 15px;
-    flex-direction: column;
+    padding: 25px 30px;
   }
-  .textbox {
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
+  .socialmedia li a {
+    font-size: 28px;
   }
+}
+
+@media screen and (max-width: 570px) {
+  header img {
+    max-width: 55px;
+  }
+  .thumb li {
+    width: 50px;
+  }
+  .socialmedia li a {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 415px) {
   .textbox h2 {
-    font-size: 1.7em;
-    font-weight: 500;
-    line-height: 1.7rem;
+    font-size: 1.5em;
+    line-height: 1.5rem;
   }
   .textbox h2 span {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .textbox p {
-    text-align: center;
-    max-width: 100%;
-    font-size: 15px;
+    font-size: 13px;
   }
-  .banner {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 20px 0;
+  .thumb {
+    gap: 8px;
   }
-  .banner img {
-    position: relative;
-    max-width: 70%;
+  .thumb li {
+    width: 40px;
   }
-  .thumb li img {
-    max-width: 50px;
+  .socialmedia li a {
+    font-size: 24px;
   }
-  .socialmedia {
-    display: none;
+}
+
+@media screen and (max-width: 460px) {
+  .textbox h2 {
+    font-size: 1.4em;
+    line-height: 1.4rem;
+  }
+  .textbox h2 span {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  header {
+    padding: 15px;
+  }
+  header img {
+    max-width: 45px;
   }
   .circlesection {
-    clip-path: circle(33% at 50% 100%);
+    clip-path: circle(27% at 95% 90%);
+  }
+  .textbox h2 {
+    font-size: 0.9em;
+    line-height: 0.9rem;
+  }
+  .textbox h2 span {
+    font-size: 0.9rem;
+  }
+  .textbox p {
+    font-size: 10px;
+  }
+  .textbox a {
+    font-size: 14px;
+  }
+  .thumb li {
+    width: 40px;
+  }
+  .socialmedia li a {
+    font-size: 18px;
   }
 }
